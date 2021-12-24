@@ -1,0 +1,40 @@
+.hide {
+    display: none; 
+}
+.hide + label ~ div{
+    display: none;
+}
+
+.hide + label {
+    
+    padding: 0;
+    color: black;
+    cursor: pointer;
+    display: inline-block; 
+}
+
+.hide:checked + label {
+    color:blue;
+    border-bottom: 0;
+}
+
+.hide:checked + label + div {
+    display: block; 
+    background: brown;
+    -moz-box-shadow: inset 3px 3px 10px pink;
+    -webkit-box-shadow: inset 3px 3px 10px red;
+    box-shadow: inset 3px 3px 10px grey;
+    padding: 10px; 
+}
+
+
+.demo {
+    margin: 5% 10%;
+}
+
+h3 {
+font-family: 'Montserrat', sans-serif;
+font-family: 'Pacifico', cursive;
+}
+
+
