@@ -1,1 +1,1 @@
-https://MatveyRymar.github.io/rsschool-cv/
+# rsschool-cv
